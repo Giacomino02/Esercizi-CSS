@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+a {
+    color: #2b2b2b;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #2b2bb2;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    flex-grow: 1;
+}
+
+.avatar {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
