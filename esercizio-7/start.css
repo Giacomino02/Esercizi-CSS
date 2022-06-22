@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25% 50% 25%;
+}
+
+#green {
+    grid-column: 1/4;
+}
+
+#yellow {
+    
+}
+
+#orange {
+    grid-row: 3;
+    grid-column: 1/3;
+}
+
+#red {
+    display: grid;
+}
+
+#blue {
+    grid-row: 2/4;
+    grid-column: 3;
+}
+
+ul {
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
