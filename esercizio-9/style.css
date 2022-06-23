@@ -1,0 +1,139 @@
+/* GENERALI */
+
+body {
+    display: flex;
+
+    font-size: 20px;
+}
+
+/* TUTTA LA CARD */
+
+.card {
+    margin: 20px;
+    padding-bottom: 30px;
+    max-width: 300px;
+
+    border-radius: 20px;
+    background: linear-gradient(#aeaeae, #f0f0f0) 
+}
+
+/* INIZIO DELLA CARD */
+
+.card-head {
+    display: flex;
+    
+    padding: 1px;
+    padding: 5px 5px;
+}
+
+/* profilo */
+
+.card-pfp {
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    align-self: center;
+}
+
+.user-info {
+    /* border: solid orange; */
+    align-self: center;
+    margin-left: 5px;
+}
+
+.user-info > h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.user-info > span {
+    color: #efefef;
+
+    font-size: 17px;
+}
+
+/* icona dei puntini */
+
+.card-dots {
+    /* border: solid purple; */
+    flex: 1;
+    text-align: end;
+    align-self: center;
+    font-size: 28px;
+    margin-right: 5px;
+
+}
+
+/* CORPO DELLA CARD */
+
+.card-body {
+    /* border: solid blue; */
+
+}
+
+/* immagine */
+
+img {
+    display: block;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+/* icone */
+
+.card-reaction {
+    padding: 23px 0px 0px 23px;
+}
+
+.fa-heart {
+    margin-right: 10px;
+}
+
+/* testo finale */
+
+.card-text {
+    text-align: justify;
+    padding: 0px 5px;
+    margin: 10px;
+}
+
+strong {
+    font-weight: 900;
+}
+
+/* MEDIA */
+
+/* tablet */
+@media  screen and (max-width:768px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+/* smartphone */
+@media  screen and (max-width:375px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* .fa-heart:hover {
+    color: #d40000;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.fa-comment:hover {
+    color: #3b83bd;
+    font-size: 25px;
+    transition: 0.2s;
+} */
