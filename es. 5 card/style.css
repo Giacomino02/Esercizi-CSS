@@ -1,0 +1,57 @@
+/* TAG */
+
+body {
+    /* font */
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* div */
+
+div {
+    font-size: 20px;
+}
+
+div:first-child{
+    text-transform: capitalize;
+}
+
+/* immagine */
+img {
+    /* dimensioni */
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/* footer con link */
+footer {
+    padding: 20px;
+}
+
+a {
+    padding: 0px 10px;
+}
+
+/* CLASS */
+
+/* testo */
+.text {
+    padding: 0px 20px;
+}
+
+.par {
+    /* testo */
+    text-transform: none;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.items > div {
+    border-top: 1px solid lightgray;
+    padding: 15px;
+}
+
+.items > div:nth-child(3) {
+    border-bottom: 1px solid lightgray;
+}
