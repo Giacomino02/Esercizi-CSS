@@ -1,0 +1,149 @@
+/* GENERALI */
+
+* {
+    /* dimensioni */
+    margin: 0;
+    padding: 0;
+    /* font */
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    /* stile */
+    background: none;
+    border: none;
+    appearance: none;
+}
+
+/* LISTE */
+
+ul{
+    display: block;
+    list-style-type: none;
+    color: white;
+}
+
+/* link */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* NAV-BAR */
+
+nav {
+    display: flex;
+    background-color: #212429;
+    padding: 10px;
+    
+}
+
+
+.nav-list {
+    /* dimensioni */
+    margin: 0;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 5px 10px;
+    align-self: center;
+}
+
+.nav-link button {
+    color: grey;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+#selector {
+    color: grey;
+}
+
+
+.form {
+    /* flex */
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-self: center;
+}
+
+/* barra di ricerca */
+
+#research {
+    /* stile */
+    background-color: white;
+    border-radius: 5px;
+    /* dimensioni */
+    padding: 10px;
+    margin: 0px 5px;
+    max-width: 300px;
+    width: 100%;
+    
+}
+
+.form button {
+    /* stile */
+    border:  solid #217d53;
+    padding: 10px;
+    border-radius: 5px;
+    color: #217d53;
+    margin: 0px 5px;
+}
+
+.form button:hover {
+    /* stile */
+    background-color: #217d53;
+    color: white;
+    cursor: pointer;
+}
+
+option {
+    /* stile */
+    background: #217d53;
+    color: white;
+}
+
+option:first-child {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 768px){
+    .form {
+        display: none;
+    }
+    
+    .nav-list li:not(:first-child) {
+        display: none;
+    }
+    
+    .menu {
+        color: white;
+        flex: 1;
+        align-self: center;
+        text-align: end;
+        font-size: 25px;
+        display: list-item;
+    }
+
+    .menu::marker {
+        content: ""; 
+    }
+}
